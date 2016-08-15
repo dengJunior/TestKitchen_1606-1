@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42C6AD155926F961DE38D480 /* Pods_TestKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1BF45E192105895DFF07FC /* Pods_TestKitchen.framework */; };
 		4EE7BF5C1D6151B100506D79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7BF5B1D6151B100506D79 /* AppDelegate.swift */; };
 		4EE7BF5E1D6151B100506D79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7BF5D1D6151B100506D79 /* ViewController.swift */; };
 		4EE7BF611D6151B100506D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE7BF5F1D6151B100506D79 /* Main.storyboard */; };
@@ -25,6 +26,17 @@
 		4EE7BFBB1D61553B00506D79 /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EE7BFB01D61553B00506D79 /* LaunchImage-800-667h@2x.png */; };
 		4EE7BFBC1D61553B00506D79 /* LaunchImage-800-Landscape-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EE7BFB11D61553B00506D79 /* LaunchImage-800-Landscape-736h@3x.png */; };
 		4EE7BFBD1D61553B00506D79 /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EE7BFB21D61553B00506D79 /* LaunchImage-800-Portrait-736h@3x.png */; };
+		4EE7BFBF1D615A6B00506D79 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7BFBE1D615A6B00506D79 /* MainTabBarController.swift */; };
+		4EE7BFC11D615ABB00506D79 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7BFC01D615ABB00506D79 /* BaseViewController.swift */; };
+		4EE7BFC31D615B0200506D79 /* CookBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7BFC21D615B0200506D79 /* CookBookViewController.swift */; };
+		4EE7BFC51D615B4300506D79 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7BFC41D615B4300506D79 /* CommunityViewController.swift */; };
+		4EE7BFC71D615B7100506D79 /* MallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7BFC61D615B7100506D79 /* MallViewController.swift */; };
+		4EE7BFC91D615B9900506D79 /* FoodClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7BFC81D615B9900506D79 /* FoodClassViewController.swift */; };
+		4EE7BFCB1D615BCD00506D79 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7BFCA1D615BCD00506D79 /* ProfileViewController.swift */; };
+		4EE7BFCF1D61641D00506D79 /* Ctrl.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EE7BFCE1D61641D00506D79 /* Ctrl.json */; };
+		4EE7BFD11D61730B00506D79 /* UIView+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7BFD01D61730B00506D79 /* UIView+Util.swift */; };
+		4EE7BFD31D6173C500506D79 /* UILabel+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7BFD21D6173C500506D79 /* UILabel+Util.swift */; };
+		4EE7BFD51D61752400506D79 /* UIButton+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7BFD41D61752400506D79 /* UIButton+Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32D74BB3E4AF3EA3955B922A /* Pods-TestKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.debug.xcconfig"; sourceTree = "<group>"; };
+		3A1BF45E192105895DFF07FC /* Pods_TestKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE7BF581D6151B100506D79 /* TestKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE7BF5B1D6151B100506D79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EE7BF5D1D6151B100506D79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +83,18 @@
 		4EE7BFB01D61553B00506D79 /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
 		4EE7BFB11D61553B00506D79 /* LaunchImage-800-Landscape-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Landscape-736h@3x.png"; sourceTree = "<group>"; };
 		4EE7BFB21D61553B00506D79 /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		4EE7BFBE1D615A6B00506D79 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		4EE7BFC01D615ABB00506D79 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4EE7BFC21D615B0200506D79 /* CookBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookBookViewController.swift; sourceTree = "<group>"; };
+		4EE7BFC41D615B4300506D79 /* CommunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		4EE7BFC61D615B7100506D79 /* MallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MallViewController.swift; sourceTree = "<group>"; };
+		4EE7BFC81D615B9900506D79 /* FoodClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodClassViewController.swift; sourceTree = "<group>"; };
+		4EE7BFCA1D615BCD00506D79 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4EE7BFCE1D61641D00506D79 /* Ctrl.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Ctrl.json; sourceTree = "<group>"; };
+		4EE7BFD01D61730B00506D79 /* UIView+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Util.swift"; sourceTree = "<group>"; };
+		4EE7BFD21D6173C500506D79 /* UILabel+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Util.swift"; sourceTree = "<group>"; };
+		4EE7BFD41D61752400506D79 /* UIButton+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Util.swift"; sourceTree = "<group>"; };
+		6E87E211E8360397F6E607F9 /* Pods-TestKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C6AD155926F961DE38D480 /* Pods_TestKitchen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +123,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2040834CF0831A880D204CE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A1BF45E192105895DFF07FC /* Pods_TestKitchen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4EE7BF4F1D6151B100506D79 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +138,8 @@
 				4EE7BF6F1D6151B100506D79 /* TestKitchenTests */,
 				4EE7BF7A1D6151B100506D79 /* TestKitchenUITests */,
 				4EE7BF591D6151B100506D79 /* Products */,
+				7D85521FDFC5C7C0FD720205 /* Pods */,
+				2040834CF0831A880D204CE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +203,12 @@
 		4EE7BF8A1D6153E500506D79 /* common */ = {
 			isa = PBXGroup;
 			children = (
+				4EE7BFBE1D615A6B00506D79 /* MainTabBarController.swift */,
+				4EE7BFC01D615ABB00506D79 /* BaseViewController.swift */,
+				4EE7BFCE1D61641D00506D79 /* Ctrl.json */,
+				4EE7BFD01D61730B00506D79 /* UIView+Util.swift */,
+				4EE7BFD21D6173C500506D79 /* UILabel+Util.swift */,
+				4EE7BFD41D61752400506D79 /* UIButton+Util.swift */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -191,6 +234,7 @@
 		4EE7BF8D1D6153E500506D79 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				4EE7BFC41D615B4300506D79 /* CommunityViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -230,6 +274,7 @@
 		4EE7BF921D6153E500506D79 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				4EE7BFC21D615B0200506D79 /* CookBookViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -269,6 +314,7 @@
 		4EE7BF971D6153E500506D79 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				4EE7BFC81D615B9900506D79 /* FoodClassViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -308,6 +354,7 @@
 		4EE7BF9C1D6153E500506D79 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				4EE7BFC61D615B7100506D79 /* MallViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -347,6 +394,7 @@
 		4EE7BFA11D6153E500506D79 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				4EE7BFCA1D615BCD00506D79 /* ProfileViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -406,6 +454,15 @@
 			path = lauchImages;
 			sourceTree = "<group>";
 		};
+		7D85521FDFC5C7C0FD720205 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32D74BB3E4AF3EA3955B922A /* Pods-TestKitchen.debug.xcconfig */,
+				6E87E211E8360397F6E607F9 /* Pods-TestKitchen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -413,9 +470,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EE7BF801D6151B100506D79 /* Build configuration list for PBXNativeTarget "TestKitchen" */;
 			buildPhases = (
+				D32588572435CA94214A2B81 /* [CP] Check Pods Manifest.lock */,
 				4EE7BF541D6151B100506D79 /* Sources */,
 				4EE7BF551D6151B100506D79 /* Frameworks */,
 				4EE7BF561D6151B100506D79 /* Resources */,
+				2D0D398F9B1549DAD8E06F53 /* [CP] Embed Pods Frameworks */,
+				8F474C013C668FECFAA6D806 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -526,6 +586,7 @@
 				4EE7BFB91D61553B00506D79 /* LaunchImage-700-568h@2x.png in Resources */,
 				4EE7BFB71D61553B00506D79 /* AppIcon60x60@2x.png in Resources */,
 				4EE7BFB81D61553B00506D79 /* AppIcon60x60@3x.png in Resources */,
+				4EE7BFCF1D61641D00506D79 /* Ctrl.json in Resources */,
 				4EE7BFB41D61553B00506D79 /* AppIcon29x29@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -546,13 +607,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D0D398F9B1549DAD8E06F53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F474C013C668FECFAA6D806 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D32588572435CA94214A2B81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EE7BF541D6151B100506D79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4EE7BF5E1D6151B100506D79 /* ViewController.swift in Sources */,
+				4EE7BFC11D615ABB00506D79 /* BaseViewController.swift in Sources */,
+				4EE7BFC51D615B4300506D79 /* CommunityViewController.swift in Sources */,
+				4EE7BFC31D615B0200506D79 /* CookBookViewController.swift in Sources */,
+				4EE7BFC71D615B7100506D79 /* MallViewController.swift in Sources */,
+				4EE7BFD51D61752400506D79 /* UIButton+Util.swift in Sources */,
+				4EE7BFC91D615B9900506D79 /* FoodClassViewController.swift in Sources */,
+				4EE7BFD11D61730B00506D79 /* UIView+Util.swift in Sources */,
+				4EE7BFCB1D615BCD00506D79 /* ProfileViewController.swift in Sources */,
 				4EE7BF5C1D6151B100506D79 /* AppDelegate.swift in Sources */,
+				4EE7BFBF1D615A6B00506D79 /* MainTabBarController.swift in Sources */,
+				4EE7BFD31D6173C500506D79 /* UILabel+Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,26 +811,30 @@
 		};
 		4EE7BF811D6151B100506D79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D74BB3E4AF3EA3955B922A /* Pods-TestKitchen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TestKitchen/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1606.TestKitchen;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		4EE7BF821D6151B100506D79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E87E211E8360397F6E607F9 /* Pods-TestKitchen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TestKitchen/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1606.TestKitchen;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -781,6 +904,7 @@
 				4EE7BF821D6151B100506D79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EE7BF831D6151B100506D79 /* Build configuration list for PBXNativeTarget "TestKitchenTests" */ = {
 			isa = XCConfigurationList;
@@ -789,6 +913,7 @@
 				4EE7BF851D6151B100506D79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EE7BF861D6151B100506D79 /* Build configuration list for PBXNativeTarget "TestKitchenUITests" */ = {
 			isa = XCConfigurationList;
@@ -797,6 +922,7 @@
 				4EE7BF881D6151B100506D79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
