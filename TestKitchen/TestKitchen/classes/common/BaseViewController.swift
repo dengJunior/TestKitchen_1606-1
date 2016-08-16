@@ -33,6 +33,7 @@ class BaseViewController: UIViewController {
         
         //1.创建按钮
         let btn = UIButton.createBtn(nil, bgImageName: imageName, selectBgImageName: nil, target: target, action: action)
+        btn.frame = CGRectMake(0, 4, 40, 36)
         
         //2.创建UIBarButtonItem
         let barBtnItem = UIBarButtonItem(customView: btn)

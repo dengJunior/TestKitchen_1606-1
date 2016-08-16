@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CookBookViewController: BaseViewController {
+class CookBookViewController: BaseViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,6 +17,24 @@ class CookBookViewController: BaseViewController {
         
         //导航
         self.createMyNav()
+        
+        //下载推荐的数据
+        self.downloadRecommendData()
+        
+    }
+    
+    
+    //下载推荐的数据
+    func downloadRecommendData(){
+        
+        //参数
+        let dict = ["methodName":"SceneHome", "token":"", "user_id":"", "version":"4.5"]
+        
+        let downloader = KTCDownloader()
+        //设置代理
+        downloader.delegate = self
+        
+        downloader.postWithUrl(kHostUrl, params: dict)
         
     }
     
@@ -53,3 +71,23 @@ class CookBookViewController: BaseViewController {
     */
 
 }
+
+
+//MARK: KTCDownloader代理
+extension CookBookViewController: KTCDownloaderDelegate{
+    
+    func downloader(downloader: KTCDownloader, didFailWithError error: NSError) {
+        print(error)
+    }
+    
+    func downloader(downloader: KTCDownloader, didFinishWithData data: NSData?) {
+        
+        let str = NSString(data: data!, encoding: NSUTF8StringEncoding)
+        print(str!)
+        
+    }
+    
+}
+
+
+
