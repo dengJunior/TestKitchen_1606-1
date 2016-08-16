@@ -20,6 +20,7 @@ extension UIButton {
         
         if let btnBgImageName = bgImageName {
             btn.setBackgroundImage(UIImage(named: btnBgImageName), forState: .Normal)
+            
         }
         
         if let btnSelectBgImageName = selectBgImageName {
