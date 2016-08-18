@@ -106,6 +106,10 @@ extension CookBookViewController: KTCDownloaderDelegate{
     func downloader(downloader: KTCDownloader, didFinishWithData data: NSData?) {
         
         if let jsonData = data {
+            /*
+            let str = NSString(data: jsonData, encoding: NSUTF8StringEncoding)
+            print(str)
+            */
             
             let model = CBRecommendModel.parseModel(jsonData)
             

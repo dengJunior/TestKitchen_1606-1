@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		42C6AD155926F961DE38D480 /* Pods_TestKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1BF45E192105895DFF07FC /* Pods_TestKitchen.framework */; };
+		4E0195591D654B9500AE5763 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0195581D654B9500AE5763 /* Util.swift */; };
+		4E01955B1D655AE400AE5763 /* CBSearchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01955A1D655AE400AE5763 /* CBSearchHeaderView.swift */; };
+		4E01955F1D6561C500AE5763 /* search1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E01955E1D6561C500AE5763 /* search1.png */; };
+		4E0195621D65631400AE5763 /* CBRedPacketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0195601D65631400AE5763 /* CBRedPacketCell.swift */; };
+		4E0195631D65631400AE5763 /* CBRedPacketCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E0195611D65631400AE5763 /* CBRedPacketCell.xib */; };
 		4E683EF21D63FBAE0001783F /* CBRecommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E683EF11D63FBAE0001783F /* CBRecommendView.swift */; };
 		4E683EF51D63FF440001783F /* CBRecommendADCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E683EF31D63FF440001783F /* CBRecommendADCell.swift */; };
 		4E683EF61D63FF440001783F /* CBRecommendADCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E683EF41D63FF440001783F /* CBRecommendADCell.xib */; };
@@ -101,6 +106,11 @@
 /* Begin PBXFileReference section */
 		32D74BB3E4AF3EA3955B922A /* Pods-TestKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.debug.xcconfig"; sourceTree = "<group>"; };
 		3A1BF45E192105895DFF07FC /* Pods_TestKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0195581D654B9500AE5763 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		4E01955A1D655AE400AE5763 /* CBSearchHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBSearchHeaderView.swift; sourceTree = "<group>"; };
+		4E01955E1D6561C500AE5763 /* search1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search1.png; sourceTree = "<group>"; };
+		4E0195601D65631400AE5763 /* CBRedPacketCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBRedPacketCell.swift; sourceTree = "<group>"; };
+		4E0195611D65631400AE5763 /* CBRedPacketCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBRedPacketCell.xib; sourceTree = "<group>"; };
 		4E683EF11D63FBAE0001783F /* CBRecommendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBRecommendView.swift; sourceTree = "<group>"; };
 		4E683EF31D63FF440001783F /* CBRecommendADCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBRecommendADCell.swift; sourceTree = "<group>"; };
 		4E683EF41D63FF440001783F /* CBRecommendADCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBRecommendADCell.xib; sourceTree = "<group>"; };
@@ -215,6 +225,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4E01955C1D6561C500AE5763 /* Cookbook */ = {
+			isa = PBXGroup;
+			children = (
+				4E01955D1D6561C500AE5763 /* homePage */,
+			);
+			path = Cookbook;
+			sourceTree = "<group>";
+		};
+		4E01955D1D6561C500AE5763 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				4E01955E1D6561C500AE5763 /* search1.png */,
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
 		4E683EF91D640A1A0001783F /* common */ = {
 			isa = PBXGroup;
 			children = (
@@ -304,6 +330,7 @@
 				4EE7C1A81D62A85600506D79 /* Const.swift */,
 				4EE7C1C61D62BD6F00506D79 /* KTCDownloader.swift */,
 				4E683EF71D64080F0001783F /* UIImageView+Util.swift */,
+				4E0195581D654B9500AE5763 /* Util.swift */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -519,6 +546,7 @@
 		4EE7BFA51D6153E500506D79 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				4E01955C1D6561C500AE5763 /* Cookbook */,
 				4E683EF91D640A1A0001783F /* common */,
 				4EE7C1AA1D62B99400506D79 /* launchImages */,
 				4EE7C1B01D62B99400506D79 /* nav */,
@@ -632,6 +660,9 @@
 				4E683EF41D63FF440001783F /* CBRecommendADCell.xib */,
 				4E683EFC1D6417500001783F /* CBRecommendLikeCell.swift */,
 				4E683EFD1D6417500001783F /* CBRecommendLikeCell.xib */,
+				4E01955A1D655AE400AE5763 /* CBSearchHeaderView.swift */,
+				4E0195601D65631400AE5763 /* CBRedPacketCell.swift */,
+				4E0195611D65631400AE5763 /* CBRedPacketCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -763,6 +794,7 @@
 				4EE7C1911D62A15B00506D79 /* community_normal@3x.png in Resources */,
 				4EE7C1A41D62A15B00506D79 /* shop_normal@2x.png in Resources */,
 				4EE7C1921D62A15B00506D79 /* community_select@2x.png in Resources */,
+				4E0195631D65631400AE5763 /* CBRedPacketCell.xib in Resources */,
 				4EE7C1C01D62B99400506D79 /* navBar.png in Resources */,
 				4EE7C1C21D62B99400506D79 /* saoyisao@2x.png in Resources */,
 				4EE7C1A31D62A15B00506D79 /* shike_select@3x.png in Resources */,
@@ -785,6 +817,7 @@
 				4EE7BF611D6151B100506D79 /* Main.storyboard in Resources */,
 				4EE7C1BE1D62B99400506D79 /* nav_back_black.png in Resources */,
 				4EE7C1C31D62B99400506D79 /* saoyisao@3x.png in Resources */,
+				4E01955F1D6561C500AE5763 /* search1.png in Resources */,
 				4EE7C1A71D62A15B00506D79 /* shop_select@3x.png in Resources */,
 				4EE7C1B91D62B99400506D79 /* LaunchImage-700-568h@2x.png in Resources */,
 				4EE7C1991D62A15B00506D79 /* mine_normal@3x.png in Resources */,
@@ -879,11 +912,14 @@
 			files = (
 				4EE7BF5E1D6151B100506D79 /* ViewController.swift in Sources */,
 				4EE7BFC11D615ABB00506D79 /* BaseViewController.swift in Sources */,
+				4E01955B1D655AE400AE5763 /* CBSearchHeaderView.swift in Sources */,
 				4EE7BFC51D615B4300506D79 /* CommunityViewController.swift in Sources */,
 				4EE7BFC31D615B0200506D79 /* CookBookViewController.swift in Sources */,
 				4E683EFE1D6417500001783F /* CBRecommendLikeCell.swift in Sources */,
 				4EE7BFC71D615B7100506D79 /* MallViewController.swift in Sources */,
 				4EE7BFD51D61752400506D79 /* UIButton+Util.swift in Sources */,
+				4E0195621D65631400AE5763 /* CBRedPacketCell.swift in Sources */,
+				4E0195591D654B9500AE5763 /* Util.swift in Sources */,
 				4EE7BFC91D615B9900506D79 /* FoodClassViewController.swift in Sources */,
 				4EE7BFD11D61730B00506D79 /* UIView+Util.swift in Sources */,
 				4EE7BFCB1D615BCD00506D79 /* ProfileViewController.swift in Sources */,
